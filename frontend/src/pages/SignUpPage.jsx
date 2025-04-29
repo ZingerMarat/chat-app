@@ -61,7 +61,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <User className="w-5 h-5 text-white" />
+                <User className="size-5 text-base-content/40 z-10" />
                 </div>
                 <input
                   type="text"
@@ -79,7 +79,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Mail className="w-5 h-5 text-white" />
+                <Mail className="size-5 text-base-content/40 z-10" />
                 </div>
                 <input
                   type="email"
@@ -97,7 +97,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Lock className="w-5 h-5 text-white" />
+                <Lock className="size-5 text-base-content/40 z-10" />
                 </div>
                 <input
                   type={showPassword ? "text" : "password"}
@@ -112,9 +112,9 @@ const SignUpPage = () => {
                   onClick={() => setShowPassword(!showPassword)}
                 >
                   {showPassword ? (
-                    <EyeOff className="w-5 h-5 text-white" />
+                    <EyeOff className="size-5 text-base-content/40 z-10" />
                   ) : (
-                    <Eye className="w-5 h-5 text-white" />
+                    <Eye className="size-5 text-base-content/40 z-10" />
                   )}
                 </button>
               </div>
